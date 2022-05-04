@@ -21,8 +21,6 @@ Resources:
         - x86_64
       Layers:
         - arn:aws:lambda:us-east-1:671754373350:layer:requests:1
-        #Policies: String | List | Map
-      #Role: arn:aws:iam::671754373350:role/service-role/lambda_basic_execution
       Role:  !GetAtt IAMPoliciesForLambda1.Arn
 
   IAMPoliciesForLambda1:
