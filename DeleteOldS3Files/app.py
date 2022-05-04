@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 today = datetime.now(timezone.utc)
 delete_time = datetime.now(tz=timezone.utc) - timedelta(days=32)
 # count=0
-slack_webhook = 'https://hooks.slack.com/services/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'
+slack_webhook = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 s3 = boto3.client('s3')
 
 
